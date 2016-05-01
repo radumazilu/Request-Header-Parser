@@ -7,7 +7,7 @@ var port = Number(process.env.PORT || 3000)
 
 var os = require( 'os' );
 
-app.get('/translation', function(request, response) {
+app.get('/', function(request, response) {
     var contentType = response.getHeader('content-type');
     var agent = useragent.parse(request.headers['user-agent']);
     response.json({

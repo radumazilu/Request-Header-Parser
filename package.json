@@ -1,0 +1,15 @@
+{
+  "name": "request-header-parser",
+  "version": "1.0.0",
+  "description": "FreeCodeCamp project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "radumazilu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "useragent": "^2.1.9"
+  }
+}
